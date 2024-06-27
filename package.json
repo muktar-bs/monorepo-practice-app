@@ -1,0 +1,23 @@
+{
+  "name": "monorepo-practice-app",
+  "version": "1.0.0",
+  "description": "This repository is created for the purpose of learning monorepos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces" : [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muktar-bs/monorepo-practice-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muktar-bs/monorepo-practice-app/issues"
+  },
+  "homepage": "https://github.com/muktar-bs/monorepo-practice-app#readme"
+}
